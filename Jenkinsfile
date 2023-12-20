@@ -28,8 +28,7 @@ pipeline {
                         dir('C:\\Users\\Asus\\OneDrive\\Desktop\\RepoFolder\\flipkart\\src\\main\\java') {
                             bat 'javac my_first.java'
                             bat 'java my_first 2021'
-                            bat 'javac leapYear.java'
-                            bat 'java leapYear'
+                            bat 'default.txt'
                             bat 'index.html'
                         }
                     } catch (Exception e) {
